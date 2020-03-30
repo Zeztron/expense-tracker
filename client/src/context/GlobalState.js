@@ -24,7 +24,7 @@ export const GlobalProvider = ({ children }) => {
       type: 'DELETE_TRANSACTION',
       payload: id
     });
-  };
+  };                                            
 
   const addTransaction = transaction => {
     dispatch({
